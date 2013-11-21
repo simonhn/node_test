@@ -1,6 +1,6 @@
 var mongo = require('mongodb'),
   BSON = mongo.BSONPure,
-  server = new mongo.Server('localhost', 27017, {auto_reconnect: true}),
+  server = new mongo.Server('33.33.33.82', 27017, {auto_reconnect: true}),
   db = new mongo.Db('abc_radio', server),
   collectionName = 'content';
 
